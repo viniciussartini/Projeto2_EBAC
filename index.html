@@ -9,11 +9,11 @@
 <body>
     <div>
         <h1>Agenda de Contatos</h1>
-        <form>
+        <form id="formulario">
             <label for="contato-nome">Nome:</label>
-            <input type="text" name="" id="contato-nome" placeholder="Nome">
+            <input type="text" name="" id="contato-nome" placeholder="Nome" required>
             <label for="contato-telefone">Telefone:</label>
-            <input type="tel" name="" id="contato-telefone" placeholder="Telefone">
+            <input type="tel" name="" id="contato-telefone" placeholder="(XX)9XXXX-XXXX" required>
             <button type="submit">Cadastrar</button>
         </form>
         <table>
@@ -24,20 +24,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Fulano da Silva</td>
-                    <td>(XX)9XXXX-XXXX</td>
-                </tr>
-                <tr>
-                    <td>Fulano da Silva</td>
-                    <td>(XX)9XXXX-XXXX</td>
-                </tr>
-                <tr>
-                    <td>Fulano da Silva</td>
-                    <td>(XX)9XXXX-XXXX</td>
-                </tr>
             </tbody>
         </table>
     </div>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
